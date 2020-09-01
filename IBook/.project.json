@@ -1,0 +1,28 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "https://api.cf.eu10.hana.ondemand.com",
+		"Organization": "4dd47d03-c676-4c6e-b033-8bf1ce1210e2",
+		"Space": "d6876277-5b4d-4f73-bc0f-d47d079ea5c3",
+		"Deploy": {
+			"Destination": [
+				{
+					"CF": "",
+					"MDK": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/4dd47d03-c676-4c6e-b033-8bf1ce1210e2/space/d6876277-5b4d-4f73-bc0f-d47d079ea5c3",
+		"AppId": "iLibraryMobile",
+		"Destination": [
+			"iLibraryMobileEndpoint"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=iLibraryMobile&ClientId=f31cd31e-01ff-4d0d-a92d-e3ff442dca2b&SapCloudPlatformEndpoint=https://ic-cf-2020-team-303-ilibrarymobile.cfapps.eu10.hana.ondemand.com&AuthorizationEndpointUrl=https://ic-cf-2020-team-303-ilibrarymobile.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://ic-cf-2020-team-303-ilibrarymobile.cfapps.eu10.hana.ondemand.com&TokenUrl=https://ic-cf-2020-team-303-ilibrarymobile.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token"
+	}
+}

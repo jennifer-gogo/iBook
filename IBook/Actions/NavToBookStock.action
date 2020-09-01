@@ -1,0 +1,8 @@
+{
+	"ClearHistory": false,
+	"ModalPage": false,
+	"ModalPageFullscreen": false,
+	"OuterNavigation": false,
+	"PageToOpen": "/IBook/Pages/BookStock.page",
+	"_Type": "Action.Type.Navigation"
+}

@@ -1,0 +1,17 @@
+{
+	"OnFailure": "/IBook/Actions/LendingSetCreateFailureMessage.action",
+	"OnSuccess": "/IBook/Actions/NavToMainPage.action",
+	"Properties": {
+		"BookID": "#Control:FCBookID_Create/#Value",
+		"BorrowDate": "#Control:FCBorrowDate_Create/#Value",
+		"LendingID": "#Control:FCLendingID_Create/#Value",
+		"ReturnDate": "#Control:FCReturnDate_Create/#Value",
+		"Status": "false",
+		"UserID": "#Control:FCUserID_Create/#Value"
+	},
+	"Target": {
+		"EntitySet": "LendingSet",
+		"Service": "/IBook/Services/iLibraryMobile.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

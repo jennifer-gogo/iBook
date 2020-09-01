@@ -1,0 +1,75 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/IBook/Rules/BorrowConfirmation.js",
+				"Position": "right",
+				"Text": "Borrow",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Book Information",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "{Publisher}",
+						"DetailImage": "/IBook/Rules/GetBookIcon.js",
+						"DetailImageIsCircular": false,
+						"HeadlineText": "{BookName}",
+						"StatusText": "{Num}",
+						"Subhead": "{Author}",
+						"Tags": [
+							"{Category}"
+						],
+						"Target": {
+							"EntitySet": "BookSet",
+							"Service": "/IBook/Services/iLibraryMobile.service"
+						}
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Description",
+							"Value": "{Description}",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue1",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Manual Borrow",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/IBook/Actions/NavToBookLeading.action",
+				"Visible": true,
+				"_Name": "ToolbarItem0",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Book_Detail",
+	"_Type": "Page"
+}

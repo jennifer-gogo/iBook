@@ -1,0 +1,8 @@
+{
+	"Target": {
+		"EntitySet": "LendingSet",
+		"ReadLink": "{@odata.readLink}",
+		"Service": "/IBook/Services/iLibraryMobile.service"
+	},
+	"_Type": "Action.Type.ODataService.DeleteEntity"
+}

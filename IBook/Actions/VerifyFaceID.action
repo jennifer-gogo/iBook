@@ -1,0 +1,6 @@
+{
+	"ActivityIndicatorText": "Activity Indicator Text test",
+	"AllowCancel": true,
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.VerifyPasscode"
+}

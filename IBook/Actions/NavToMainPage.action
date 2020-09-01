@@ -1,0 +1,6 @@
+{
+	"ClearHistory": true,
+	"ModalPage": true,
+	"PageToOpen": "/IBook/Pages/Main.page",
+	"_Type": "Action.Type.Navigation"
+}

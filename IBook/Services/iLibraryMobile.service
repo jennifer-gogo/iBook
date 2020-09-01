@@ -1,0 +1,6 @@
+{
+	"AppId": "iLibraryMobile",
+	"DestinationName": "iLibraryMobileEndpoint",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": true
+}

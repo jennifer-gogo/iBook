@@ -1,0 +1,22 @@
+{
+	"Service": "/IBook/Services/iLibraryMobile.service",
+	"DefiningRequests": [
+	{
+		"Name": "BookSet",
+		"Query": "BookSet"
+	},
+	{
+		"Name": "LendingSet",
+		"Query": "LendingSet"
+	},
+	{
+		"Name": "UserSet",
+		"Query": "UserSet"
+	}
+],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/IBook/Actions/Service/SyncFailureMessage.action"
+}

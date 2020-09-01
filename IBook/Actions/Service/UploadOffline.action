@@ -1,0 +1,9 @@
+{
+	"Service": "/IBook/Services/iLibraryMobile.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/IBook/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/IBook/Actions/Service/SyncFailureMessage.action"
+}

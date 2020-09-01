@@ -1,0 +1,5 @@
+{
+	"ModalPage": true,
+	"PageToOpen": "/IBook/Pages/BookLending.page",
+	"_Type": "Action.Type.Navigation"
+}

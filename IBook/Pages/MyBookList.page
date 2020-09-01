@@ -1,0 +1,37 @@
+{
+	"Caption": "My Book List",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"Description": "/IBook/Rules/GetTodayDate.js",
+						"DetailImage": "/IBook/Rules/GetBookIcon2.js",
+						"DetailImageIsCircular": false,
+						"Footnote": "Return Date: $(D, {ReturnDate} )",
+						"OnPress": "/IBook/Rules/ReturnConfirmation.js",
+						"PreserveIconStackSpacing": true,
+						"StatusText": "/IBook/Rules/DetermineBorrowStatus.js",
+						"Title": "{Book/BookName}"
+					},
+					"Target": {
+						"EntitySet": "LendingSet",
+						"QueryOptions": "$expand=Book",
+						"Service": "/IBook/Services/iLibraryMobile.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable1",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "MyBookList",
+	"_Type": "Page"
+}

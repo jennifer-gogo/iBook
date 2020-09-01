@@ -1,0 +1,41 @@
+{
+	"Caption": "Stock",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"Description": "{Description}",
+						"DetailImage": "/IBook/Rules/GetBookIcon.js",
+						"DetailImageIsCircular": false,
+						"Footnote": "{ISBN}",
+						"OnPress": "/IBook/Actions/NavToBookDetail.action",
+						"PreserveIconStackSpacing": true,
+						"StatusText": "{Num}",
+						"Subhead": "{Author}",
+						"SubstatusText": "{Publisher}",
+						"Title": "{BookName}"
+					},
+					"Search": {
+						"Enabled": true
+					},
+					"Target": {
+						"EntitySet": "BookSet",
+						"Service": "/IBook/Services/iLibraryMobile.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "BookStock",
+	"_Type": "Page"
+}

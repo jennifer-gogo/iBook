@@ -1,0 +1,6 @@
+{
+	"Message": "Lending data saving failed",
+	"OKCaption": "OK",
+	"Title": "Save Error",
+	"_Type": "Action.Type.Message"
+}

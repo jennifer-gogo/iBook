@@ -1,0 +1,90 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/IBook/Actions/CloseModalPage_Cancel.action",
+				"Position": "left",
+				"SystemItem": "Cancel",
+				"Text": "Item",
+				"Visible": true
+			},
+			{
+				"OnPress": "/IBook/Actions/LendingSet_Create.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Book Lending",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Lending ID",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "10",
+							"_Name": "FCLendingID_Create",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "User ID",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "1",
+							"_Name": "FCUserID_Create",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Book ID",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{BookID}",
+							"_Name": "FCBookID_Create",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Book Name",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{BookName}",
+							"_Name": "FCBookName",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Borrow Date",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "FCBorrowDate_Create",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Return Date",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "FCReturnDate_Create",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "BookLending",
+	"_Type": "Page"
+}
